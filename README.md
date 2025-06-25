@@ -43,20 +43,13 @@ A modular Django-based system to extract recipe text and allergenic ingredients 
    ```sh
    python3 manage.py runserver
    ```
-## Usage
-### Web Interface
+   
+## Usage - Web Interface
 1. Open your browser and go to `http://127.0.0.1:8000/web/`.
 2. Enter the URL of a recipe page into the input field.
 3. Click the submit button.
 4. Wait a few moments while the system scrapes the recipe, analyzes the ingredients, and extracts allergens.
 5. The results will be displayed on the page, including the parsed ingredients and detected allergens.
-
-### API
-- Send a POST request to `/api/extract/` with a JSON body containing the `url` key:
-  ```json
-  { "url": "https://example.com/your-recipe" }
-  ```
-- The response will include the extracted ingredients and allergens.
 
 ## Architecture
 - `ai_client.py`: AI client interface and Azure OpenAI implementation
