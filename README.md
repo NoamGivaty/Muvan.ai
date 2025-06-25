@@ -15,8 +15,8 @@ A modular Django-based system to extract recipe text and allergenic ingredients 
 ## Setup
 1. Clone the repository:
    ```sh
-   git clone <your-repo-url>
-   cd <repo-folder>
+   git clone https://github.com/NoamGivaty/Muvan.ai.git
+   cd Muvan.ai
    ```
 2. Create and activate a virtual environment:
    ```sh
