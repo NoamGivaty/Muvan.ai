@@ -35,11 +35,14 @@ A modular Django-based system to extract recipe text and allergenic ingredients 
      AZURE_OPENAI_KEY=your-azure-openai-api-key-here
      ```
 
-5. Start the Django server:
+5. Apply Django migrations (required for built-in apps):
+   ```sh
+   python3 manage.py migrate
+   ```
+6. Start the Django server:
    ```sh
    python3 manage.py runserver
    ```
-
 ## Usage
 ### Web Interface
 1. Open your browser and go to `http://127.0.0.1:8000/web/`.
