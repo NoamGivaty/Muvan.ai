@@ -33,9 +33,7 @@ staticfiles
 # Environments
 venv/
 ENV/
-env/
 .venv/
-.env
 
 # VS Code
 .vscode/
